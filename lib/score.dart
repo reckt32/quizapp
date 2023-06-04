@@ -43,7 +43,7 @@ class Score extends StatelessWidget {
                   score = 0;
                   i = 0;
                   j = 0;
-                  Navigator.pushNamed(context, '/second');
+                  Navigator.pushNamed(context, '/start');
                 },
                 child: Text('Play Again?'))
           ],

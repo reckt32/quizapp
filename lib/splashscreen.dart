@@ -27,7 +27,8 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         color: const Color.fromARGB(255, 43, 43, 43),
         child: Center(
-          child: LottieBuilder.asset('animations/145824-loading-pacman.json'),
+          child: LottieBuilder.asset(
+              'animations/145481-planet-earth-and-rocket.json'),
         ),
       ),
     );
